@@ -17,5 +17,5 @@ function fish_prompt --description 'Write out the prompt'
         set status_color $prompt_color_error
     end
 
-    echo -n -s (set_color $status_color) (prompt_pwd) " ❯ "
+    echo -n -s (set_color $status_color) (prompt_git_pwd) " ❯ "
 end
